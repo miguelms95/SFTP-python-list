@@ -12,4 +12,4 @@ for i in range(len(sftp.listdir())):
     print sftp.listdir_attr()[i]
 
 sftp.close()
-raw_input('Clic para salir...')
+raw_input('Click for exit...')
